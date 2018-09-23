@@ -1,0 +1,208 @@
+body{
+  color:silver;
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
+  background-color: #696969;
+  padding: 0px 0px 0px 0px;
+  background-image: url(./images/foto1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: 'PT Mono', monospace;
+}
+
+header{
+  width: 60%;
+  position: fixed;
+  font-family: 'Bowlby One SC', cursive;
+  font-size: 20px;
+  background-color: rgba( 93, 106, 128, 0.5);
+  opacity: 0.5;
+  z-index: 10;
+
+}
+
+header h1{
+  float:left;
+  height:10%;
+  width: 10%;
+  opacity: 1;
+}
+
+header a{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+header nav{
+  float:left;
+}
+  nav li{
+    display: inline;
+    padding: 20px 20px;
+    margin: 20px;
+}
+
+  nav li:hover {
+    background: aquamarine;
+    color: #F0FFFF;
+  }
+
+
+#banner{
+  margin-top: 50px;
+  margin-bottom: 250px;
+  height: 90%;
+  width: 75%;
+  margin: 80 auto;
+  padding: 25px 0px 0px 0px;
+  background: rgba(128, 139, 150, 0.5);
+}
+
+#banner .st1{
+  color: red;
+  font-family:'Notable' ,cursive;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+#banner .st2{
+  color: green;
+  font-family: 'Bowlby One SC', cursive;
+  font-weight: lighter;
+  font-size: 100px;
+}
+
+#banner .st3{
+  color: yellow;
+  font-family:'Notable' ,cursive;
+  font-weight: bold;
+  font-size: 150px;
+}
+
+#about {
+  margin-top: 50px;
+  margin-bottom: 250px;
+  background-image: linear-gradient(rgba(213, 245, 227, 0.5),rgba(0, 0, 0, 0.5)),url(./images/eventbackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-size: 20px;
+  padding-top: 150px;
+  padding-bottom: 220px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+#about .st{
+  color: red;
+  font-family:'Notable' ,cursive;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+#skill {
+  margin-top: 50px;
+  margin-bottom: 250px;
+  background-image: linear-gradient(rgba(235, 245, 251, 0.5),rgba(0, 0, 0, 0.5)),url(./images/eventbackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-size: 20px;
+  height: 700px;
+  width: 600px;
+  padding-top: 150px;
+  padding-bottom: 220px;
+  padding-left: 100px;
+  padding-right: 100px;
+  border-bottom: 5px;
+  border-bottom-style: : dashed;
+}
+
+#skill h3{
+  font-family:'Notable' ,cursive;
+  font-size: 20px;
+  color: #fadbd8;
+}
+
+#work {
+  margin-top: 50px;
+  margin-bottom: 250px;
+  background-image: linear-gradient(rgba(235, 245, 251, 0.5),rgba(0, 0, 0, 0.5)),url(./images/eventbackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-size: 20px;
+  height: 700px;
+  width: 700px;
+  text-align: center;
+  color: white;
+  padding-top: 150px;
+  padding-bottom: 400px;
+}
+
+#work p{
+  font-family:'PT Mono' ,cursive;
+  font-size: 20px;
+  color: #fadbd8;
+}
+
+#contact {
+  background: transparent;
+  text-align: justify;
+  color: white;
+  padding-top: 150px;
+  padding-bottom: 400px;
+}
+
+#contact div{
+  float: left;
+  width: 25%;
+  display: block;
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+#messagebox {
+background-color: #grey;
+opacity: 0.7;
+}
+
+  #messagebox
+  form input [type= "text"],
+  select,
+  textarea{
+    width: 80%;
+    text-align: justify;
+    text-align-last: left;
+    text-rendering: geometricPrecision;
+    padding: 12px;
+    border: none;
+    border: 2px solid #222;
+    background-color: transparent;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color: #b2b2b2;
+
+  }
+  #name, #email{
+    background: transparent;
+    border: 2px solid #222;
+  }
+  #submit{
+    background-color: #222;
+    border: none;
+    color:#b2b2b2;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+   }
